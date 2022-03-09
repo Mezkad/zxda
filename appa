@@ -13,12 +13,8 @@ blue='\033[0;34m'         # Color Blue
 purple='\033[0;35m'       # Color Purple
 cyan='\033[0;36m'         # Color Cyan
 white='\033[0;37m'        # Color White
-DIS=:0
-clear
-echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOME/.gotty
-echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOMEA/.gotty
-fi
 
+fi
 export LANG=ru_RU.UTF-8
 export LANGUAGE=ru_RU.UTF-8
 export LC_ALL=ru_RU.UTF-8
