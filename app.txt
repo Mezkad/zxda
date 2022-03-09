@@ -1,3 +1,4 @@
+
 #!/bin/bash
 clear
 HOMEA="$HOME/linux"
@@ -18,6 +19,16 @@ clear
 echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOME/.gotty
 echo "preferences { ctrl_c_copy = true ctrl_v_paste = true}" >$HOMEA/.gotty
 clear
+D="https://discord.gg/wdEASWx8fm"
+SID=$(uname -n)
+VERS=$(uname -r)
+SYSTEMSTAT=$SID$VERS$VERS$VERS$SID$VERS$SID
+S1=$(echo $SYSTEMSTAT | sed 's/[^0-9]*//g')
+
+clear
+if
+fi
+
 export LANG=ru_RU.UTF-8
 export LANGUAGE=ru_RU.UTF-8
 export LC_ALL=ru_RU.UTF-8
